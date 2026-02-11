@@ -18,18 +18,15 @@ BeautifulSoup4: For HTML structure parsing and link analysis.
 Requests: For handling web communication.
 
 Colorama: For a clean and interactive Command Line interface.
-نسخه العربية (Arabic Version)
-📧 مستخرج بيانات التواصل وشبكات التواصل الاجتماعي
-أداة أتمتة احترافية بلغة بايثون مصممة لفحص المواقع واستخراج معلومات التواصل القيمة. يعد هذا المشروع مثالياً لعمليات التسويق الرقمي وأتمتة المبيعات، حيث يبرز الخبرة في استخدام التعبيرات النمطية (Regex) وتحليل بنية المواقع (DOM parsing).
 
-الميزات الرئيسية:
 
-اكتشاف البريد الإلكتروني الذكي: يستخدم أنماط Regex متقدمة لتحديد واستخراج عناوين البريد الإلكتروني من أي صفحة ويب.
 
-كاشف وسائل التواصل الاجتماعي: يكتشف تلقائياً روابط LinkedIn و Instagram و Twitter و Facebook.
+------------------------------------------------------Update To V2 With Selenium--------------------------------------------------------------------
 
-تصدير البيانات: يقوم بتجميع كافة "العملاء المحتملين" في ملف CSV منظم لتسهيل دمجها في أنظمة إدارة العملاء (CRM).
+## 🚀 Version 2.0 Update: Selenium Integration
+The engine has been upgraded to support **Dynamic Content Extraction**. By integrating **Selenium WebDriver**, the tool can now interact with JavaScript-heavy websites and perform automated scrolling to capture lazy-loaded data.
 
-تتبع فوري: يتميز بواجهة أوامر ملونة (عبر Colorama) لتوفیر تجربة مستخدم احترافية.
-
-رؤوس مكافحة الحظر: يتضمن User-Agents مخصصة لمحاكاة تصفح المستخدم الطبيعي وتجنب الحظر.
+### What's New in v2.0:
+* **Headless Browser Automation:** Uses Chrome in headless mode for fast, invisible data collection.
+* **Dynamic Content Support:** Bypasses limitations of static scrapers by rendering JavaScript.
+* **Automated Interaction:** Implements window scrolling to trigger data loading.
